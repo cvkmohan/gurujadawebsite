@@ -2,6 +2,21 @@ html, body {
 	background-color: #ffffff;
 }
 
+a{cursor:pointer;}
+body {overflow: hidden;font-family: Georgia, Helvetica, Arial, sans-serif;color: #333333;font-size: 11px;}
+#panel {
+    position: absolute; 
+    margin: 5px;
+    padding: 5px;
+    z-index: 99;
+    background-color: #FFFECF;
+    border: 1px solid #e1e0af;
+}
+#chromeBadge {position: absolute; bottom: 0; right: 0;padding: 4px;}
+#sharing {background-color: #FFFECF;position: absolute; top: 0;right: 0;margin: 5px;padding: 7px 0 4px 10px;z-index: 98;border: 1px solid #e1e0af;}
+#facebook_button {float: left;}
+#retweet_button {float: left;}
+
 h2 a {
 	color: #333333;
 	background-color: #FFFECF;
@@ -44,7 +59,7 @@ h1 {
 	position: absolute;
 }
 
-.social { list-style:none; margin:30px auto; width:464px; }
+.social { list-style:none;}
 .social li { display:inline; float:left; background-repeat:no-repeat; }
 .social li a { display:block; width:48px; height:48px; padding-right:10px; position:relative; text-decoration:none; }
 .social li a strong { font-weight:normal; position:absolute; left:20px; top:-1px; color:#fff; padding:3px; z-index:9999;
